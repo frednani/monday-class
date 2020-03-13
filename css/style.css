@@ -1,14 +1,22 @@
 body{
 	background-color: black;
+	color: 3333;
+	border-bottom-style: black square;
+	background-image: url('../img/latter.png');
+
+
 }
 nav     {
   width: 100%;
   display: inline-block;
   background-color: gray;
+  border-bottom-style: black solid;
+
 }
 nav ul   {
   list-style: none;
   margin: 0;
+  list-style:inside;
 }
 nav ul li {
   display: inline-block;
@@ -35,4 +43,21 @@ h1{
 	font-family: monospace;
 	text-align: center;
 	font-size: 20px;
+}
+.main-header h1{
+	font-family: monospace;
+	font-weight: 800;
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+}
+.main-footer{
+	text-align: center;
+	margin-left: 234;
+	color: black;
+	padding-bottom: 12px;
+	direction: left;
+
 }
