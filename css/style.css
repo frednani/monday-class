@@ -1,8 +1,7 @@
 body{
-	background-color: black;
+	background-color: gray;
 	color: 3333;
 	border-bottom-style: black square;
-	background-image: url('../img/latter.png');
 
 
 }
@@ -12,6 +11,7 @@ nav     {
   background-color: gray;
   border-bottom-style: black solid;
 
+
 }
 nav ul   {
   list-style: none;
@@ -20,6 +20,7 @@ nav ul   {
 }
 nav ul li {
   display: inline-block;
+  margin: 1000px,1000px,1000px,1000px;
 }
 nav ul li .link   {
   color: #FFF;
@@ -33,7 +34,7 @@ nav ul li .link:hover   {
   background: #444;
 }
 nav ul li .lefting   {
-  margin-left:500px;
+  margin-left:350px;
 }
 nav ul li .link1{
 	margin-left: 100px;
@@ -59,5 +60,37 @@ h1{
 	color: black;
 	padding-bottom: 12px;
 	direction: left;
+}
+nav ul li .lefting1{
+	margin-left:400px;
 
+}
+.menu-icon{
+	font-size: 3.5rem;
+	color: #fafafa;
+	cursor: pointer;
+}
+.container{
+	height: 12rem;
+	width: 5rem;
+	background-color: black;
+
+}
+.icon1{
+	 width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+.icon2{
+	 width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+.icon3{
+	 width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
 }
